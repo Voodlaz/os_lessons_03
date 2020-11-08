@@ -4,6 +4,7 @@ extern crate alloc;
 
 pub mod vga_driver;
 pub mod heap;
+pub mod memory;
 
 pub fn hlt_loop() -> ! {
     loop {
